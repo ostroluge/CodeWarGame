@@ -1,0 +1,10 @@
+
+Codewar is developped by wadinj and ostrowst for a coding project at Lille 1 University. 
+It's a game for coders, which is based on emulating microprocessors, and make them "fight" on a grid.
+
+In file called "Processeur" you find one processor emulated with all instructions.
+In main file you can find the game.
+
+For compilation, if you want to run CodeWar, type make on main directory.
+If you want to run one processor, type make in "Processor"
+Enjoy.
