@@ -1,0 +1,16 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "codewar.h"
+void affichage_grille()
+{
+int i,j;
+printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+for(i = 0 ; i < 16 ; i ++) {
+		printf("|");
+	for(j = 0 ; j < 16 ; j ++) {
+		printf("%x|",plateau[i][j].RAM[1]);
+}
+		printf("\n");
+}
+printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+}

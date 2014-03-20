@@ -1,0 +1,6 @@
+ADD R1,R2
+ADD (R1),R2
+ADD (R1)+,R2
+ADD -(R1),R2
+ADD #5,R2
+ADD #2,R2

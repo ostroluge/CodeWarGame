@@ -1,0 +1,6 @@
+XOR R1,R2
+XOR (R1),R2
+XOR (R1)+,R2
+XOR -(R1),R2
+XOR #5,R2
+XOR #2,R2

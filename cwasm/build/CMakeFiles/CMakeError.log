@@ -1,0 +1,132 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4162336096/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4162336096.dir/build.make CMakeFiles/cmTryCompileExec4162336096.dir/build
+make[1]: entrant dans le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4162336096.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4162336096.dir/CheckSymbolExists.cxx.o -c /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4162336096.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec4162336096/fast] Erreur 2
+
+File /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3901923815/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3901923815.dir/build.make CMakeFiles/cmTryCompileExec3901923815.dir/build
+make[1]: entrant dans le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3901923815.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3901923815.dir/CheckSymbolExists.cxx.o -c /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3901923815.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec3901923815/fast] Erreur 2
+
+File /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1966533252/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1966533252.dir/build.make CMakeFiles/cmTryCompileExec1966533252.dir/build
+make[1]: entrant dans le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1966533252.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1966533252.dir/CheckSymbolExists.cxx.o -c /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1966533252.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec1966533252/fast] Erreur 2
+
+File /home/jo/CodeWar/cwasm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

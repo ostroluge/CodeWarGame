@@ -1,0 +1,6 @@
+AND R1,R2
+AND (R1),R2
+AND (R1)+,R2
+AND -(R1),R2
+AND #5,R2
+AND #2,R2

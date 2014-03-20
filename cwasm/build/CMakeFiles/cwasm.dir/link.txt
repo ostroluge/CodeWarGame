@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/cwasm.dir/src/main.o CMakeFiles/cwasm.dir/src/assembler.o CMakeFiles/cwasm.dir/src/instructions.o CMakeFiles/cwasm.dir/src/label.o  -o bin/cwasm -rdynamic -lQtGui -lQtCore 

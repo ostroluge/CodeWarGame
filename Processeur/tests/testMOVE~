@@ -1,0 +1,6 @@
+
+MOVE @5, R1
+MOVE @5, (R2)
+MOVE @5, -(R1)
+MOVE @5, (R2)
+

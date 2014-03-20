@@ -1,0 +1,5 @@
+CMP R1,R2
+CMP (R1),R2
+CMP (R1)+,R2
+CMP -(R1),R2
+CMP #5,R2

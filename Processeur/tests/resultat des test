@@ -1,0 +1,46 @@
+Valeur du registre R[0] = 2
+Valeur du registre R[1] = 10
+Valeur du registre R[2] = 20
+Valeur du registre R[3] = 2
+Valeur du registre R[4] = 2
+Valeur du registre R[5] = 2
+Valeur du registre R[6] = 80
+Valeur du registre R[7] = 2
+
+Toutes les valeurs de la RAM à 1;
+
+TEST MOVE :
+
+MOVE R1,R2  -> R2 = 10
+MOVE R1,(R2) -> RAM[R2] = 10;
+MOVE R1,-(R2) -> R2 = 9 ; RAM[R2=9] = 10;
+MOVE R2, (R1)+ -> RAM[R1=10] ; R1 = 11;
+MOVE R1, @60 -> RAM[60] = 11;   
+
+R2 = 9 ; R1 = 11 ; (R2) = 10 ; (R1) = 10; (60) = 11; 
+
+
+MOVE R1,R2
+MOVE R1,(R2)
+MOVE R1,(R2)+
+MOVE R1,-(R2)
+MOVE R1,@5
+
+
+MOVE (R1),R2
+MOVE (R1),(R2)
+MOVE (R1),(R2)+
+MOVE (R1),-(R2)
+MOVE (R1),@5
+
+MOVE (R1)+,R2
+MOVE (R1)+,(R2)
+MOVE (R1)+,(R2)+
+MOVE (R1)+,-(R2)
+MOVE (R1)+,@5
+
+MOVE #10, R1
+MOVE #10, (R2)
+MOVE #10, -(R1)
+MOVE #10, (R2)+
+

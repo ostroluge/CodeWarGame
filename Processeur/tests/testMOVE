@@ -1,0 +1,30 @@
+
+MOVE R1,R2
+MOVE R1,(R2)
+MOVE R1,(R2)+
+MOVE R1,-(R2)
+MOVE R1,@5
+
+
+MOVE (R1),R2
+MOVE (R1),(R2)
+MOVE (R1),(R2)+
+MOVE (R1),-(R2)
+MOVE (R1),@5
+
+MOVE (R1)+,R2
+MOVE (R1)+,(R2)
+MOVE (R1)+,(R2)+
+MOVE (R1)+,-(R2)
+MOVE (R1)+,@5
+
+MOVE #10, R1
+MOVE #10, (R2)
+MOVE #10, -(R1)
+MOVE #10, (R2)+
+
+MOVE @5, R1
+MOVE @5, (R2)
+MOVE @5, -(R1)
+MOVE @5, (R2)
+

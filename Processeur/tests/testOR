@@ -1,0 +1,6 @@
+OR R1,R2
+OR (R1),R2
+OR (R1)+,R2
+OR -(R1),R2
+OR #5,R2
+OR #2,R2

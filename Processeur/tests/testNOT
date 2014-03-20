@@ -1,0 +1,5 @@
+NOT R1
+NOT (R1)
+NOT (R1)+
+NOT -(R1)
+

@@ -1,0 +1,6 @@
+SUB R1,R2
+SUB (R1),R2
+SUB (R1)+,R2
+SUB -(R1),R2
+SUB #5,R2
+SUB #2,R2
