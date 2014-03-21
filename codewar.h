@@ -1,4 +1,3 @@
-
 #include <stdint.h>
 #define MOVE 0
 #define PUSH 1
@@ -112,12 +111,21 @@ void jmp(struct cpu *c, uint16_t *inst);
 void jsr(struct cpu *c, uint16_t *inst);
 
 void execute(struct cpu *c);
+
 struct cpu *selectionCPU();
+
 void illegalInst(struct cpu *c);
+
 struct cpu init();
+
 void init_plateau();
+
 int getCouleur(struct cpu *c);
+
 void afficherCPUSelected(struct cpu *c);
+
 struct cpu *adresse_vers_cpu(struct cpu *c,uint16_t adresse);
+
 uint16_t cpu_vers_adresse(struct cpu *c,uint16_t adresse);
+
 void affichage_grille();
